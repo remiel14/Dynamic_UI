@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: medium;
+    font-weight: normal;
+    font-family: popins, sans-serif;
+}
+
+/* Header Styles */
+#headerContainer > h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(8, 234, 250);
+    text-align: center;
+}
+
+#headerContainer > small{
+    font-size: medium;
+    font-weight: lighter;
+    color: rgb(255, 39, 39);
+}
+
+#headerContainer {
+    box-shadow: 0px 0px 10px 0px rgb(8, 195, 228);
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 30px;
+}
+
+#formContainer {
+    box-shadow: 0px 0px 10px 0px rgb(15, 1, 1);
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(13, 201, 207, 0.637);
+    text-align: center;
+    margin: 30px;
+}
